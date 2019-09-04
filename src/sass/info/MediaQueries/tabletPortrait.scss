@@ -1,0 +1,11 @@
+@import '../../mq';
+
+@media #{$tabletPortrait} {
+    @import '../mobile';
+  	& {
+      .head {
+        text-align: left;
+        background-position: center bottom;
+      }
+	}
+}
